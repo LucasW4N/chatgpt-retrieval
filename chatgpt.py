@@ -13,6 +13,8 @@ from langchain.vectorstores import Chroma
 
 import constants
 
+import nltk
+
 os.environ["OPENAI_API_KEY"] = constants.APIKEY
 
 # Enable to save to disk & reuse the model (for repeated queries on the same data)
